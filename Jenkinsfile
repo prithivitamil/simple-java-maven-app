@@ -1,6 +1,7 @@
 pipeline {
     agent {
-            'EASEE_Test_Pipeline'
+            // 'EASEE_Test_Pipeline'
+             agent any
              echo 'in agent easee test pipeline'
         docker {
             image 'maven:3.9.0'
